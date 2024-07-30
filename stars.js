@@ -9,3 +9,25 @@ const stars = document.querySelector('.stars');
         star.style.animationDuration = Math.random() * 2 + 1 + 's';
         stars.appendChild(star);
     }
+
+window.addEventListener('scroll', () => {
+    const container = document.getElementById('csdn');
+    if (window.scrollY > window.innerHeight/7) {
+        container.style.opacity = (window.scrollY-window.innerHeight/2)/(window.innerHeight/2);
+        
+    } else {
+        container.style.opacity = 0;
+        
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const container = document.getElementById('ccw');
+    if (window.scrollY > window.innerHeight/6) {
+        container.style.opacity = (window.scrollY-window.innerHeight/1.5)/(window.innerHeight/1.5);
+        
+    } else {
+        container.style.opacity = 0;
+        
+    }
+});
