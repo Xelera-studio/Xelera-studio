@@ -1,4 +1,12 @@
+@font-face{
+    font-family: "Font1";
+    src: url('./BAUHS93.TTF');
+    font-style: normal;
+    font-weight: normal;
+}
+
 #HELLO{
+    font-family: "Font1", sans-serif;
     font-size: 100px;
 }
 
