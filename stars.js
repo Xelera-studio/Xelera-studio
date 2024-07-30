@@ -1,5 +1,5 @@
 const stars = document.querySelector('.stars');
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 600; i++) {
         const star = document.createElement('div');
         star.className = 'star';
         star.style.top = Math.random() * 100 + 'vh';
