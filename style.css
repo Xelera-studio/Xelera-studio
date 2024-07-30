@@ -1,6 +1,48 @@
+@keyframes mymove
+            {
+            0% { 
+                color: rgb(255, 0, 0);
+            }
+            14% { 
+                color: rgb(255, 128, 0);
+            }
+            28% { 
+                color: rgb(255, 255, 0);
+            }
+            42% {
+                 color: rgb(128, 255, 0);
+                }
+            56% {
+                 color: rgb(0,255,0);
+                }
+            70% {
+                 color: rgb(0,128,255);
+                }
+            84% {
+                 color: rgb(0, 0, 255);
+                }
+            100% {
+                 color: rgb(255, 0, 0);
+                }
+        }
+
+
 #HELLO{
     font-family: "IMPACT", sans-serif;
     font-size: 100px;
+    animation:mymove 5s infinite linear;
+    -webkit-animation:mymove 6s infinite linear;
+    
+}
+
+#welcome{
+    font-size: 20px;
+    font-family: "华文行楷", sans-serif;
+}
+
+#Xelera{
+    font-size: 15px;
+    font-family: IMPACT;
 }
 
 html{
