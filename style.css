@@ -148,3 +148,18 @@ img#csdn{
 #porject{
     border-radius: 10vh;
 }
+
+#mygithub{
+    text-decoration: none;
+    font-family: "华文行楷", sans-serif;
+    width: 80vw;
+    height: 30vh;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 6vw;
+}
+
+#github{
+    opacity: 0;
+}

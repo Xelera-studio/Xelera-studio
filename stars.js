@@ -12,8 +12,8 @@ const stars = document.querySelector('.stars');
 
 window.addEventListener('scroll', () => {
     const container = document.getElementById('csdn');
-    if (window.scrollY > window.innerWidth/17) {
-        container.style.opacity = (window.scrollY-window.innerWidth/6)/(window.innerWidth/6);
+    if (window.scrollY > window.innerWidth/9) {
+        container.style.opacity = (window.scrollY-window.innerWidth/3)/(window.innerWidth/3);
         
     } else {
         container.style.opacity = 0;
@@ -23,8 +23,19 @@ window.addEventListener('scroll', () => {
 
 window.addEventListener('scroll', () => {
     const container = document.getElementById('ccw');
-    if (window.scrollY > window.innerWidth/16) {
-        container.style.opacity = (window.scrollY-window.innerWidth/4)/(window.innerWidth/4);
+    if (window.scrollY > window.innerWidth/13) {
+        container.style.opacity = (window.scrollY-window.innerWidth/2)/(window.innerWidth/2);
+        
+    } else {
+        container.style.opacity = 0;
+        
+    }
+});
+
+window.addEventListener('scroll', () => {
+    const container = document.getElementById('github');
+    if (window.scrollY > window.innerWidth/10) {
+        container.style.opacity = (window.scrollY-window.innerWidth/1.5)/(window.innerWidth/1.5);
         
     } else {
         container.style.opacity = 0;
